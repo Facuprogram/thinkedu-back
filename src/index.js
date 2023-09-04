@@ -12,7 +12,6 @@ const teacher = await Administrative.create({
     contact: ['381516849 - ', 'facumaster@gmail.com'],
     id: '45678',
     nameInstitution: 'Colegio EduThink',
-    addres: 'Colombia 4124'
+    address: 'Colombia 4124'
 });
-
 console.log(teacher);

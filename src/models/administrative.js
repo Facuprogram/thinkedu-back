@@ -15,7 +15,7 @@ const administrativeSchema = new Schema({
     }],
     id: Number,
     nameInstitution: String,
-    addres: String
+    address: String
 });
 
 const Administrative = model('Administrative', administrativeSchema);
